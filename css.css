@@ -51,7 +51,7 @@ body {
 }
 
 #splashBox {
-    background-color: #4edd49;
+    background-color: #d9d9d9;
     background-image: url("../image2.png");
     background-repeat: no-repeat;
     background-attachment: local;
@@ -75,7 +75,7 @@ body {
 
 .container {
     clear: both;
-    background: #d50707;
+    background: #f8f8f8;
     margin-right: auto;
     margin-left: auto;
 }
