@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="js/script.js"></script>
+    <script src="js/DesignGenerator.js"></script>
+</head>
+
+<body onload="changeBackground()">
+    <div class="navigationBackground">
+        <div class="navigationHeader">
+            <header>
+                <h2 class="websiteHeader">ARCHIPLETE.COM</h2>
+            </header>
+        </div>
+        <div class="navigationMenu">
+            <p>
+                <a href="about.html">about</a> <span style="color: #bebebe;">|</span>
+                <a href="news.html">news</a> <span style="color: #bebebe;">|</span>
+                <a href="donate.html">donate</a> <span style="color: #bebebe;">
+            </p>
+        </div>
+    </div>
+
+    <div class="splashBackground">
+        <div id="splashBox">
+            <div class="splashPhrase">
+                Generate design proposals!
+    
+                
+            </div>
+        </div>
+    </div>
+    <div class="generator">
+        <div class="generatorBackground">
+            <div class="genbox">
+                <button class="genbutton" type="button" onclick="generateParagraph()">Generate Proposal</button>
+                <header class="outputHeader">
+                        <div class="outputicon"></div>
+                </header>
+                    <section id="brief" class="outputbrief">
+                    </section>
+                <footer class="outputFooter">
+                </footer>
+                    
+                    <div class="ribbonicon">
+                        <button type="button" class="clipboardButton">Copy To Clipboard</button><!-- Issues separating the *chooseList* variable in js to pull copied segment into a hidden text box.
+                        <div>
+                        <button class="genbutton" type="button" onclick="toClipboard()"> Copy to Clipboard </button>
+                        </div>-->
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="outputBackground"></div>
+
+    <footer>
+        <div class="footermenu">
+            <p>
+                <a href="about.html">about</a> <span style="color: #bebebe;">|</span>
+                <a href="news.html">news</a> <span style="color: #bebebe;">|</span>
+                <a href="donate.html">donate</a> <span style="color: #bebebe;">|</span>
+                <a href="index.html">home</a>
+            </p>
+        </div>
+        </footer>
+
+        <div class="toes">
+            <div class="nails">Copyright Archeiplete<sup style="font-size: 10px;">TM</sup> 2023 </div>
+        </div>
+</body>
+
+</html>

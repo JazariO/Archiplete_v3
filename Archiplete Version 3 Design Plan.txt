@@ -1,0 +1,21 @@
+Archiplete Version 3 Design Plan
+
+- Update Logo
+- Design Backgrounds in blueprint style
+- Learn Dynamic Webpage Generation using "Asynchronous Updates"
+- Implement 3D Visualisation of the bounding box for the site using a unity3d webGL plugin
+
+Responsivity: describes when a page's window can be adjusted in size and the webpage will respond by arranging the webpage elements in a different order or using a separate style. Most advantageous for desktop to mobile webpage layout changes.
+
+Home Page:
+	Design System - Colours, Typography
+	Desktop Layout
+	Desktop Layout Active - Activated Elements
+	Tablet Layout
+	Mobile Layout
+
+Plan:
+-Review old website layout
+-Remove Anchor links to other pages
+-Insert AJAX to swap out webpage elements as a stand-in for the pages.
+-Hook up WEBGL/Unity Web3D
