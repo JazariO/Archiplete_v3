@@ -5,63 +5,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Archiplete</title>
     <link rel="stylesheet" type="text/css" href="css.css">
     <script src="js/script.js"></script>
     <script src="js/DesignGenerator.js"></script>
 </head>
 
 <body onload="changeBackground()">
-    <div class="navigationBackground">
-        <div class="navigationHeader">
-            <header>
-                <h2 class="websiteHeader">ARCHIPLETE.COM</h2>
-            </header>
+    <!-- Masthead Start -->
+    <div class="mastheadBackground">
+        <div class="globalMargin">
+            <div class="bannerTitle">
+
+                <div class="bannerLogo"></div>
+                <div class="bannerLogoShadow"></div>
+                <div class="mainTitle">
+                    <header>
+                        <h2 class="websiteHeader">Archiplete</h2>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
         <div class="navigationMenu">
-            <p>
-                <a href="about.html">about</a> <span style="color: #bebebe;">|</span>
+            <!-- Replace with burger menu. -->
+            <!-- <a href="about.html">about</a> <span style="color: #bebebe;">|</span>
                 <a href="news.html">news</a> <span style="color: #bebebe;">|</span>
-                <a href="donate.html">donate</a> <span style="color: #bebebe;">
-            </p>
+                <a href="donate.html">donate</a> <span style="color: #bebebe;"> -->
         </div>
     </div>
+    <!-- Masthead End -->
 
-    <div class="splashBackground">
-        <div id="splashBox">
-            <div class="splashPhrase">
-                Generate design proposals!
-    
-                
+    <section class="globalMargin">
+        <!-- Test Flex -->
+        <!-- <ul class="nintendo">
+            <div class="item1">Home</div>
+            <div class="item1">Products</div>
+            <div class="item1">Use Cases</div>
+            <div class="item1">Privacy Policy</div>
+        </ul> -->
+
+        <div class="main-content">
+            <div class="splashBackground">
+                <div id="splashBox">
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="generator">
-        <div class="generatorBackground">
-            <div class="genbox">
-                <button class="genbutton" type="button" onclick="generateParagraph()">Generate Proposal</button>
-                <header class="outputHeader">
-                        <div class="outputicon"></div>
-                </header>
-                    <section id="brief" class="outputbrief">
-                    </section>
-                <footer class="outputFooter">
-                </footer>
-                    
-                    <div class="ribbonicon">
-                        <button type="button" class="clipboardButton">Copy To Clipboard</button><!-- Issues separating the *chooseList* variable in js to pull copied segment into a hidden text box.
-                        <div>
-                        <button class="genbutton" type="button" onclick="toClipboard()"> Copy to Clipboard </button>
-                        </div>-->
+            <div class="splashHook">
+                <span class="hookText">
+                    Generate architectural proposals to ignite your design capabilities
+                </span>
+
+            </div>
+            <div class="generator">
+                <div class="generatorBackground">
+                    <div class="genbox">
+                        <button class="genbutton" type="button" onclick="generateParagraph()">Generate Proposal</button>
+                        <div class="outputHeader">
+                        </div>
+                        <section id="brief" class="outputbrief">
+                        </section>
+                        <footer class="outputFooter">
+                        </footer>
+
+                        <div class="ribbonicon">
+                        </div>
                     </div>
+                </div>
+
             </div>
+            <div class="visualizer">
+                <div class="viewfinder"></div>
+                <div class="detailsCard">
+                    <p>Details</p>
+                    <p>x: 54m</p>
+                    <p>y: 45m</p>
+                    <p>z: 78m</p>
+                    <p>Density: Medium</p>
+                </div>
+            </div>
+
         </div>
-    </div>
-        
-    <div class="outputBackground"></div>
+
+
+    </section>
+    <section class="globalMargin">
+
+    </section>
+
 
     <footer>
-        <div class="footermenu">
+        <div class="footerNavigation">
             <p>
                 <a href="about.html">about</a> <span style="color: #bebebe;">|</span>
                 <a href="news.html">news</a> <span style="color: #bebebe;">|</span>
@@ -69,11 +106,11 @@
                 <a href="index.html">home</a>
             </p>
         </div>
-        </footer>
+    </footer>
 
-        <div class="toes">
-            <div class="nails">Copyright Archeiplete<sup style="font-size: 10px;">TM</sup> 2023 </div>
-        </div>
+    <div class="footerBottomDesktop">
+        <div class="nails">©SD Studios 2023 </div>
+    </div>
 </body>
 
 </html>
